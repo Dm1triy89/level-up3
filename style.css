@@ -3,15 +3,15 @@ body{
      
     
      
-     background-image: url(/img/Group\ 18\ \(1\).png);
+    background-image: url(/img/bg11.png);
      background-repeat: no-repeat;
-     background-position: center 600px;
+     background-position: center 0;
     
 }
 header{
     
     height: 120px;
-    background-color: #354147;
+    
     width: 100%;
     display: flex;
    
@@ -30,7 +30,7 @@ header{
     display:flex; 
     justify-content: center;  
     text-align: center;
-    background-color: #354147;
+    
     width: 50%;
     margin-right: 40px;
     margin-top: 54px;
@@ -162,7 +162,7 @@ color: #FFFFFF;
     
  }
 
- .conteiner-first .conteiner-block1 .conteiner-block2 .s2conteiner-block1 .s2conteiner-block2{
+ .conteiner-block1 ,.conteiner-block2, .s2conteiner-block1, .s2conteiner-block2,.s3conteiner-block1, .s3conteiner-block2{
     width: 50%;
  }
  .line , .line2{
