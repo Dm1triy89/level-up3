@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./font/Gilroy-Light.ttf) format('ttf'), url(./font/Gilroy-Light.woff) format('woff');
+    font-weight: 400;
+}
+
 body{
     background-color: #354147;
      
     
      
-    background-image: url(/img/bg11.png);
+    background-image: url(./img/bg11.png);
      background-repeat: no-repeat;
      background-position: center 0;
     
@@ -48,14 +54,14 @@ header{
     font-size: 18px;
     line-height: 22px;
     padding-left: 40px;
-
+   
 
 color: #FFFFFF;
 }
 .a-nav, .a-sec1,.a-scroll{
     text-decoration: none;
     color: #ffff;
-
+    font-family: 'Gilroy';
 
 }
 .account{
@@ -103,17 +109,19 @@ color: #FFFFFF;
     letter-spacing: 6px;
     text-transform: uppercase;
     color: #FBD784; 
+    font-family: 'Gilroy';
+
     
 }
 .h-main{
     font-family: 'Chronicle Display';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 68px;
     line-height: 100px;
     text-transform: capitalize;
     color: #FFFFFF;
-
+    
 }
 .social-bar{
     display: flex;
@@ -174,7 +182,7 @@ color: #FFFFFF;
     font-weight: 800;
 font-size: 18px;
 line-height: 22px;
-/* identical to box height */
+font-family: 'Gilroy';
 
 letter-spacing: 6px;
 text-transform: uppercase;
@@ -204,22 +212,24 @@ color: #FBD784;
     flex-direction: row;
  }
 .block1-h, .s2block1-h, .s3block1-h{
-    font-weight: 600;
+    font-weight: 300;
 font-size: 64px;
 line-height: 77px;
-
+font-family: 'Chronicle Display';
 color: #FFFFFF;
 margin-left: 90px;
 }
 .block1-p, .s2block1-p, .s3block1-p{
-    font-weight: 700;
+    font-weight: 300;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
     margin-left: 90px;
     margin-right: 40px;
+    font-family: 'Gilroy';
 }
 .more{
+    font-family: 'Gilroy';
     font-size: 18px;
     line-height: 22px;
     color: #FBD784;
@@ -267,8 +277,9 @@ footer{
     
 }
 .foot-h{
-    margin-left: 40px;
     font-family: 'Gilroy';
+    margin-left: 40px;
+    
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -278,7 +289,7 @@ footer{
 .foot-p{
     font-family: 'Gilroy';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
@@ -302,3 +313,5 @@ footer{
     align-items: flex-start;
     margin-left: 100px;
 }
+
+
